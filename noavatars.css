@@ -1,0 +1,43 @@
+@-moz-document domain("mixcloud.com") {
+.leader-avatar-image,
+a.user-follow-row-avatar-link,
+div.post-comment-avatar,
+a.post-comment-avatar,
+img.hovercard-avatar {
+    display: none !important;
+}
+.leader-avatar {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.post-comment {
+    padding-left: 20px;
+}
+.comment-item {
+    padding-left: 10px;
+}
+}
+@-moz-document domain("pinterest.com") {
+  .UserNavigateButton .profileImage,
+  .UserProfileHeader.profileHeader .profileImage,
+  .UserProfileHeader.profileHeader .fixedHeaderNameAndImage .fixedHeaderImage,
+  .User.thumb .thumbImageWrapper,
+  .User.thumbUserInfo .thumbImageWrapper,
+  .PinDescriptionComment.detailed .userThumbContainer,
+  .NetworkNotificationItems .mainActorImageWrapper,
+  .ConversationHead.normal .headWrapper,
+  .PinDescriptionComment.summary .userThumbContainer,
+  .Pin.summary .creditItem .creditImg.user,
+  .Pin.summary .pinAttribution img,
+  .User.followFriendsItem .thumbImageWrapper {
+    display: none !important;
+  }
+  .PinDescriptionComment.detailed .commenterNameCommentText,
+  .PinDescriptionComment.summary .commenterNameCommentText,
+  .User.followFriendsItem .contactUser {
+    margin-left: 0 !important;
+  }
+  .ConversationHead.normal {
+    height: auto !important;
+  }
+}
